@@ -3,5 +3,48 @@
   margin-left: 10%;
 }
 .button1{
-  padding-right: 100%;
+  margin-right: 10%;
+}
+button {
+  color: rgb(150, 150, 150);
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  font-size: 150%;
+
+  transition-duration: 0.2s;
+  border: 1px solid rgb(150, 150, 150);
+}
+
+a{
+  font-size: 100%;
+}
+
+button:hover{
+  color: rgb(71, 71, 71);
+  background-color: rgb(245, 245, 245);
+
+}
+
+.b1{
+  padding-bottom: 160%;
+  padding-top: 160%;
+}
+
+@media only screen and (max-width: 500px){
+  .b1{
+    padding-bottom: 100%;
+    padding-top: 100%;
+  }
+}
+@media only screen and (max-width: 400px){
+  .b1{
+    padding-bottom: 60%;
+    padding-top: 60%;
+  }
+}
+  @media only screen and (min-width: 1400px){
+  .b1{
+    padding-bottom: 500%;
+    padding-top: 500%;
+  }
 }

@@ -1,19 +1,21 @@
+
 <div class="container">
-  <div class="row align-items-center"> 
-    <div>
-      <button class="col-2 btn btn btn-outline-dark button1 mx-auto pr-4" (click)="getPri()"> < </button>
+  <div class="row col align-items-center d-flex justify-content-center"> 
+    <div class=" d-flex justify-content-center">
+      <button class="col-2 b1 d-flex justify-content-center" (click)="getPri()"> < </button>
     </div>
-    <div class="col-8">
-      <img class="img-fluid mx-auto" src={{src}}>
+    <div class="col">
+      <img class="img-fluid col mx-auto" src={{src}}>
     </div>
-    <div>
-      <button class="col-2 btn btn btn-outline-dark mx-auto button1" (click)="getPi()">></button>
+    <div class=" d-flex justify-content-center">
+      <button class="col-2 b1 d-flex justify-content-center" (click)="getPi()">></button>
+    </div>
+    <div class="w-100"></div>
+    <div class="col">
+      <button class="col b2" (click)="setautoImgs()"><a>auto</a></button>
+    </div>
+    <div class="col">
+      <button class="col b2" (click)="stop()"><a>stop</a></button>
     </div>
   </div>
-      <div class="col-20">
-      <button class="col-2 btn btn btn-outline-dark mx-auto btn-sm" (click)="setautoImgs()">auto</button>
-    </div>
-    <div class="col-20">
-      <button class="col-2 btn btn btn-outline-dark mx-auto btn-sm" (click)="stop()">stop</button>
-    </div>
 </div>
